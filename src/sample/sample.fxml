@@ -73,11 +73,6 @@
                                 <JFXTextField fx:id="GPAText" promptText="Filter values below" />
                             </children>
                         </HBox>
-                        <ButtonBar prefHeight="40.0" prefWidth="200.0">
-                            <buttons>
-                                <JFXButton fx:id="filterButton" minWidth="39.0" prefHeight="32.0" prefWidth="128.0" text="Filter" />
-                            </buttons>
-                        </ButtonBar>
                     </children>
                 </VBox>
             </children>

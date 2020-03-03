@@ -418,24 +418,5 @@ public class Controller implements Initializable
                 filterGPA(AWS_URL, Double.parseDouble(GPAText.getText()));
             }
         });
-        filterButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event)
-            {
-                progressBar.setOpacity(1.0);
-                if(nameText!=null){
-                    filterName(AWS_URL, nameText.getText());
-                }
-                else if (ageText!=null){
-                    filterAge(AWS_URL, Integer.parseInt(ageText.getText()));
-                }
-                else if(majorText!=null){
-                    filterMajor(AWS_URL, majorText.getText());
-                }
-                else if (GPAText!=null){
-                    filterGPA(AWS_URL, Double.parseDouble(GPAText.getText()));
-                }
-            }
-        });
     }
 }
